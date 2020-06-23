@@ -56,7 +56,7 @@ void Game::UpdateModel()
 	box.isColliding(tron);
 	box.oscilateHue();
 
-	if (wnd.kbd.KeyIsPressed(VK_RETURN))
+	if ( wnd.kbd.KeyIsPressed(VK_RETURN) )
 	{
 		startGame = true;
 	}
